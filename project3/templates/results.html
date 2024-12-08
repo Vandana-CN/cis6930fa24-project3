@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incident Data Visualizations</title>
+</head>
+<body>
+    <h1>Incident Data Visualizations</h1>
+    <div>
+        <h2>Incident Clustering</h2>
+        {{ cluster_chart|safe }}
+    </div>
+    <div>
+        <h2>Incident Counts</h2>
+        {{ bar_chart|safe }}
+    </div>
+    <div>
+        <h2>Incident Distribution</h2>
+        {{ pie_chart|safe }}
+    </div>
+</body>
+</html>
